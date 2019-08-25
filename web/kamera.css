@@ -1,0 +1,553 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	color: #000;
+	font-family: Gotham Pro;
+}
+
+#main{
+	background: url(fon_glawnaja.jpg) no-repeat center top / cover;
+	height: 660px;
+}
+
+.container{
+	width: 1100px;
+	margin: 0px auto;
+}
+
+header{
+	padding-top: 25px;
+}
+
+.logo_block{
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+.menu_block{
+	float: left;
+	width: 60%;
+}
+
+.menu_block #menu{
+	width: 100%;
+	border-spacing: 0;
+	font-weight: bold;
+}
+
+.menu_block #menu a{
+	color: #121113;
+	text-decoration: none;
+	font-family: PT Sans;
+	font-size: 18px;
+}
+
+.menu_block #menu a:hover{
+	border-bottom: 2px solid currentColor;
+}
+
+.menu_block #menu a:active{
+	color: #ababab;
+}
+
+.menu_block #menu tr td{
+	text-align: left;
+	height: 60px;
+	vertical-align: middle;
+}
+
+.contact_block .number{
+	padding-top: 20px;
+	float: right;
+	font-family: PT Sans;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 34px;
+}
+
+.contact_block .phone{
+	padding-top: 13px;
+	float: right;
+	margin-right: 6px;
+	height: 10px;
+}
+
+.button{
+	background: #000;
+	color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 16px 55px;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 160px;
+	margin: 365px 630px;
+}
+
+.button:hover{
+	background: #eeeeee;
+	outline: 2px solid black; 
+	color: black;
+}
+
+.button:active{
+	background: #ababab;
+	color: black;
+}
+
+#about{
+	padding-top: 25px;
+	background: url(o_nas.jpg) no-repeat center top / cover;
+	height: 420px;
+}
+
+#about h1{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+	height: 8px;
+	text-align: center;
+	line-height: 6px;
+}
+
+#about hr{
+	margin-top: 28px;
+}
+
+.block{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color: #330e42;
+	font-size: 14px;
+	padding-top: 260px; 
+}
+.block div{
+	text-align: center;
+	line-height: 6px;
+	display: inline-block;
+	padding: 20px;
+	
+}
+
+.block .house{
+	padding-left: 269px;
+}
+
+.block .flat{
+	padding-left: 215px;
+}
+
+.block .cafe{
+	padding-left: 190px;
+}
+
+#doubt{
+	padding-top: 25px;
+	height: 395px;
+	background-color: #160b2a;
+}
+
+#doubt h1{
+	text-transform: none;
+	color: white;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 35px;
+}
+.doubt_block div{
+	text-transform: none;
+	text-decoration: none;
+	line-height: 6px;
+	color: white;
+	font-size: 16px;
+	height: 8px;
+	text-align: center;
+}
+.top_block{
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	padding-bottom: 90px;
+}
+.top_block .questions{
+	width: 50%;
+	float: left;
+	margin-left: 50px;
+}
+.top_block span{
+	font-weight: bold;
+	font-size: 28px;
+}
+.top_block .time{
+	width: 50%;
+	float: right;
+	margin-right: 50px;
+}
+
+.down_block{
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.down_block div{
+	font-size: 14px;
+}
+.down_block .how{
+	width: 50%;
+	float: left;
+	margin-left: 50px;
+}
+.down_block .start_from{
+	width: 50%;
+	float: right;
+	margin-right: 50px;
+}
+
+.order{
+	background: #5f576c;
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 14px 40px;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 140px;
+	margin: 90px auto;
+	border: 2px double white;
+}
+
+.order:hover{
+	background: #a0a0a0; 
+}
+
+.order:active{
+	background: #8d8a93;
+}
+
+h1{
+	text-transform: none;
+	text-align: center;
+	font-size: 20px;
+	height: 8px;
+}
+
+#products{
+	background: url(towary.jpg) no-repeat center top / cover;
+	height: 600px;
+	padding-top: 25px;
+}
+
+#products .products_block{
+	width: 800px;
+	height: 400px;
+	margin: 60px auto;
+}
+
+#products .menu{
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+}
+#products .first_text{
+	float: left;
+	padding-top: 140px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+#products .second_text{
+	float: left;
+	padding-top: 140px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+	margin-left: 65px;
+}
+#products .third_text{
+	float: left;
+	padding-top: 140px;
+	padding-left: 18px;
+	padding-right: 18px;
+	margin-left: 55px;
+	text-align: center;
+	line-height: 6px;
+}
+#products .fourth_text{
+	float: left;
+	margin-left: 9px;
+	padding-top: 157px;
+	padding-left: 21px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+}
+#products .fifth_text{
+	float: left;
+	margin-left: 64px;
+	padding-top: 157px;
+	padding-left: 61px;
+	padding-right: 67px;
+	padding-bottom: 20px;
+}
+#products .sixth_text{
+	float: left;
+	margin-left: 55px;
+	padding-top: 157px;
+	padding-left: 74px;
+	padding-right: 62px;
+	padding-bottom: 20px;
+}
+#products .menu a{
+	color: black;
+}
+#products .menu a:hover{
+	background:#1e1d20;
+	outline: 2px solid black;
+	box-sizing: border-box;
+	opacity: .6;
+	color: black;
+	display: inline;
+}
+
+#products h2{
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+#products .menu a{
+	text-decoration: none;
+}
+#products .first_price{
+	margin-top: 70px;
+	margin-left: 40px;
+	position: absolute;
+}
+a.first_text ~ h2.first_price {
+    display: none;
+}
+a.first_text:hover ~ h2.first_price {
+    display: block;
+}
+#products .second_price{
+	margin-top: 70px;
+	margin-left: 340px;
+	position: absolute;
+}
+a.second_text ~ h2.second_price {
+    display: none;
+}
+a.second_text:hover ~ h2.second_price {
+    display: block;
+}
+#products .third_price{
+	margin-top: 70px;
+	margin-left: 600px;
+	position: absolute;
+}
+a.third_text ~ h2.third_price {
+    display: none;
+}
+a.third_text:hover ~ h2.third_price {
+    display: block;
+}
+#products .fourth_price{
+	margin-top: 260px;
+	margin-left: 40px;
+	position: absolute;
+}
+a.fourth_text ~ h2.fourth_price {
+    display: none;
+}
+a.fourth_text:hover ~ h2.fourth_price {
+    display: block;
+}
+#products .fifth_price{
+	margin-top: 260px;
+	margin-left: 326px;
+	position: absolute;
+}
+a.fifth_text ~ h2.fifth_price {
+    display: none;
+}
+a.fifth_text:hover ~ h2.fifth_price {
+    display: block;
+}
+#products .sixth_price{
+	margin-top: 260px;
+	margin-left: 608px;
+	position: absolute;
+	
+}
+a.sixth_text ~ h2.sixth_price {
+    display: none;
+}
+a.sixth_text:hover ~ h2.sixth_price {
+    display: block;
+}
+
+#services{
+	height: 600px;
+	background: url(services.jpg) no-repeat center top / cover;;
+	padding-top: 25px;
+}
+
+#services .consultation{
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 105px;
+}
+#services .installation{
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 400px;
+}
+#services .connection{
+	position: absolute;
+	margin-top: 270px;
+	margin-left: 690px;
+}
+#services hr{
+	margin-right: 164px;
+}
+#services h4{
+	line-height: 6px;
+	font-size: 14px;
+}
+.more{
+	line-height: 6px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	display: inline;
+	margin-left: 980px;
+	margin-top: 104px;
+	padding-right: 114px;
+	padding-left: 13px;
+	padding-top: 297px;
+	padding-bottom: 39px;
+}
+.more:hover{
+	background-color: black;
+	opacity: .6;
+}
+
+#mockup{
+	background: url(mockup.jpg) no-repeat center top / cover;
+	height: 600px;
+	padding-top: 25px;
+}
+
+#map{
+	height: 400px;
+}
+
+#forma{
+	background: url(forma.jpg) no-repeat center top / cover;
+	height: 450px;
+	padding-top: 65px;
+}
+#forma h1{
+	font-size: 22px;
+	font-weight: bold;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+#forma .input{
+	margin-left: 555px;
+	margin-top: 60px;
+}
+#forma input{
+	height: 25px;
+	width: 320px;
+	background: #f5f5f5 !important;
+	outline: none;
+	border: 1px solid #000;
+	box-shadow: 0px 1px 2px 0px #5c5c5c;
+	padding: 2px 10px;
+}
+#forma button{
+	background: black;
+	color: white;
+	padding: 10px 80px;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-style: none;
+	outline : none;
+	margin: 40px 50px;
+}
+#forma button:hover{
+	background: #eeeeee;
+	outline: 2px solid black; 
+	color: black;
+	border: none;
+}
+
+#forma button:active{
+	background: #ababab;
+	color: black;
+	border: none;
+}
+#null{
+	height: 40px;
+}
+#futer{
+	height: 200px;
+	background-color: #232321;
+}
+.futer_block{
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+}
+#futer .log{
+	width: 250px;
+	float: left;
+	margin-left: 140px;
+	margin-top: 15px;
+}
+
+#futer .work{
+	width: 250px;
+	float: left;
+	margin-left: 228px;
+}
+
+#futer .addr{
+	width: 250px;
+	float: left;
+	margin-left: 120px;
+}
+
+#futer h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+#futer h4{
+	font-size: 12px;
+	font-weight: normal;
+}
+#futer a{
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+	color: white;
+}
+.wat{
+	margin-left: 25px;
+}
+.fb{
+	margin-left: 25px;
+}
